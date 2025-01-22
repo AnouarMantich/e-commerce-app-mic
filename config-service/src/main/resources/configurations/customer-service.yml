@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/customer
+      authentication-database: admin
+
+server:
+  port: 8010
